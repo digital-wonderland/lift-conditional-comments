@@ -17,7 +17,7 @@ How to reproduce:
 
 1. Checkout 'body' or 'html' branch. 
 2. Run 'sbt' and then 'container:start'
-3. access [http://locahost:8080](http://locahost:8080)
+3. access [http://localhost:8080](http://localhost:8080)
 4. inspect respective tag in html source
 
 Expected result:
