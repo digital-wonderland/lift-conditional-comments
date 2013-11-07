@@ -8,6 +8,7 @@ import common._
 import http._
 import sitemap._
 import Loc._
+import code.snippet.Commons
 
 
 /**
@@ -49,6 +50,8 @@ class Boot extends Logger {
     // Use HTML5 for rendering
     LiftRules.htmlProperties.default.set((r: Req) =>
       new Html5Properties(r.userAgent))
+
+    LiftRules.snippetDispatch.append(Map("commons" -> Commons))
 
   }
 }
