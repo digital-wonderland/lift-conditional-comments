@@ -48,7 +48,7 @@ object ShellPrompt {
 
 object Dependencies {
   object V {
-    val lift = "2.5"
+    val lift = "3.0-SNAPSHOT"
     val logback = "1.0.11"
     val slf4j = "1.7.5"
     val specs2 = "1.14"
